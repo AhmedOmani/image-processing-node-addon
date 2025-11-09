@@ -1,0 +1,34 @@
+{
+  "timestamp": "2025-11-09T00:41:29.230Z",
+  "node": "v18.20.8",
+  "cpus": 8,
+  "image": "/home/hp/image-processing/images/test.jpg",
+  "radius": 5,
+  "iterations": 3,
+  "results": [
+    {
+      "name": "JavaScript Single-Thread",
+      "iterations": 3,
+      "durations": [
+        9492.331850007176,
+        10062.768822997808,
+        10094.148145005107
+      ],
+      "average": 9883.082939336697,
+      "min": 9492.331850007176,
+      "max": 10094.148145005107
+    },
+    {
+      "name": "JavaScript Multi-Thread",
+      "iterations": 3,
+      "durations": [
+        3199.8848780095577,
+        3327.292621001601,
+        3477.5160290002823
+      ],
+      "average": 3334.8978426704803,
+      "min": 3199.8848780095577,
+      "max": 3477.5160290002823
+    }
+  ]
+}

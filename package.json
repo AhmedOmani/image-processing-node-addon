@@ -1,0 +1,22 @@
+{
+  "name": "image-processing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean",
+    "configure": "node-gyp configure"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "node-addon-api": "^8.5.0",
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "node-gyp": "11.5.0"
+  }
+}
